@@ -1,14 +1,14 @@
 ﻿/* TEAM */
-  Front-End e Wordpress: Valter Carnaúba
-  Contact: valter.csousa@gmail.com
-  Website: http://valtercarnauba.com.br
-  Linkedin: https://www.linkedin.com/in/valter-carna%C3%BAba-41507a55/
+  Front-End e Wordpress: Cleber Silva Santos
+  Contact: clsprogramador@gmail.com
+  Website: http://cs2web.com.br
+  Telefone: 83 9 8738-0711 (WhatsApp)
 
 
 /* ABOUT */
-  Last update: 2019
+  Last update: 2020
   Language: Portuguese
-  Doctype Front-End: HTML5/CSS3, JavaScript/JQuery, Bootstrap
+  Doctype Front-End: HTML5/CSS3, JavaScript/JQuery, Bootstrap 4.3
   Doctype Back-End: WordPress, PHP, MySQL
   IDE: Visual Studio Code, FileZilla
  
