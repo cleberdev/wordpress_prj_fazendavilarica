@@ -1,0 +1,69 @@
+/*========================================
+ERROS FORMULARIOS -FORMS CONTACT 7
+==========================================*/
+body input[type=text].wpcf7-not-valid,
+body input[type=email].wpcf7-not-valid,
+body input[type=tel].wpcf7-not-valid,
+body input[type=password].wpcf7-not-valid,
+body input[type=file].wpcf7-not-valid,
+body textarea.wpcf7-not-valid,
+body select.wpcf7-not-valid {
+  border: 1px solid #dc3545;
+}
+
+span.wpcf7-not-valid-tip {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  padding: 0;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  clear: both;
+  display: block;
+  border: none;
+  color: #dc3545;
+  background: none;
+}
+
+.wpcf7-captchac {
+  padding: 2rem 4rem;
+  border: 1px solid #dee1e1;
+  margin-bottom: 1rem;
+}
+
+.wpcf7-response-output {
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 80%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 5px;
+  clear: both;
+}
+
+.wpcf7-validation-errors {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background: #ffe2e2;
+}
+
+.wpcf7-mail-sent-ng {
+  color: #e17731;
+  border: 1px solid #ffbc8a;
+  background: #fff2e2;
+}
+
+.wpcf7-mail-sent-ok {
+  color: #1ea524;
+  border: 1px solid #6fdf51;
+  background: #e8ffe2;
+}
+
+.screen-reader-response {
+  display: none;
+}

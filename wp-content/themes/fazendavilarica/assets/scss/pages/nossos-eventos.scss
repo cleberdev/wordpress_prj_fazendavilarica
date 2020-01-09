@@ -1,0 +1,75 @@
+/* ############################# */
+/* NOSSOS EVENTOS */
+/* ############################# */
+.fdez-nossos-eventos.page-home{
+    padding-bottom: 2.3rem;
+    margin: 2.3rem 0;
+    background-color: #6fcce1;
+    background-image: linear-gradient(180deg, #6fcce1 56rem, #faf4ef 30rem);
+    
+
+    .box-content{ 
+        p{
+            padding: 4.2rem 18rem 5.2rem;
+            font-size: 1.8rem;
+            font-family: "adega-serif", Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h2{
+            padding: 6.2rem 0 0;
+            font-size: 4.8rem;
+            font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+        }
+    
+    
+    }
+
+}
+
+
+.fdez-eventos.page-eventos{
+    .box-content{ 
+        padding: 6.6rem;
+     
+        .box-img {
+            height: 43.8rem;
+        }
+        
+        .box-context, .box-context-diff{
+            position: absolute;
+            padding: 2rem 6.6rem 6.9rem;
+            background-color: #ffffff;
+            right: 0;
+            top: 50%;
+            margin-top: -18rem;
+            width: 69.9rem;
+            z-index: 999;
+
+            h2{
+                font-size: 7.3rem;
+                font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+                color: #935033;
+            }
+
+            p{
+                font-size: 1.8rem;
+                font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                color: #797979;
+            }
+
+            .btn-saiba-mais{
+                @include btn-link-for-more;
+                position: relative;
+                top: 2rem;
+            }
+        }
+
+        .box-context-diff{
+            right: -13rem;
+        }
+
+
+    
+    }
+}

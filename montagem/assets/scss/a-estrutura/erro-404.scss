@@ -1,0 +1,28 @@
+
+/*=============================
+ERROS 404
+=============================*/
+.error {padding: 10% 0;}
+.error .clip .shadow {height: 18rem;}
+.error .clip:nth-of-type(2) .shadow {width: 13rem;}
+.error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {width: 25rem;}
+.error .digit {width: 15rem; height: 15rem; line-height: 15rem; font-size: 12rem; font-weight: bold;}
+.error h2 {font-size: 32px;}
+.error .msg {top: -19rem; left: 30%; width: 8rem; height: 8rem; line-height: 8rem; font-size: 32px;}
+.error span.triangle {top: 70%; right: 0%; border-left: 2rem solid #535353; border-top: 15px solid transparent; border-bottom: 15px solid transparent;}
+.error .container-error-404 {position: relative; height: 25rem;}
+.error .container-error-404 .clip {display: inline-block; transform: skew(-45deg);}
+.error .clip .shadow {overflow: hidden;}
+.error .clip:nth-of-type(2) .shadow {overflow: hidden; position: relative; box-shadow: inset 2rem 0 2rem -15px rgba(150, 150, 150,0.8), 2rem 0 2rem -15px rgba(150, 150, 150,0.8);}
+.error .clip:nth-of-type(3) .shadow:after, .error .clip:nth-of-type(1) .shadow:after {content: ""; position: absolute; right: -8px; bottom: 0; z-index: 9999; height: 100%; width: 1rem; background: linear-gradient(90deg, transparent, rgba(173,173,173, 0.8), transparent); border-radius: 50%;}
+.error .clip:nth-of-type(3) .shadow:after {left: -8px;}
+.error .digit {position: relative; top: 8%; color: white; background: #004c7b; border-radius: 50%; display: inline-block; transform: skew(45deg);}
+.error .clip:nth-of-type(2) .digit {left: -10%;}
+.error .clip:nth-of-type(1) .digit {right: -20%;}
+.error .clip:nth-of-type(3) .digit {left: -20%;}
+.error h2 {color: #A2A2A2; font-weight: bold; padding-bottom: 2rem;}
+.error p {color: #A2A2A2; font-weight: bold; padding-bottom: 2rem;}
+.error .msg {position: relative; z-index: 10; display: block; background: #535353; color: #A2A2A2; border-radius: 50%; font-style: italic;}
+.error .triangle {position: absolute; z-index: 999; transform: rotate(45deg); content: ""; width: 0; height: 0;}
+
+

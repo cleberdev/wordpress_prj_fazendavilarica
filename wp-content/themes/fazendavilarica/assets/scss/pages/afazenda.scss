@@ -1,0 +1,73 @@
+/* ############################################ */
+/*               A FAZENDA                      */
+/* ############################################ */
+.fdez-afazenda.page-afazenda{
+    background-color: #faf4ef;
+
+    .bg-topo{
+        position: relative;
+        top: -2.5rem;
+    }
+
+    .box-content{
+        padding-bottom: 5rem;
+
+        h2{
+            padding: 2.2rem 0; 
+            font-size: 7.3rem; 
+            font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+            color: #935033;
+        }
+
+        p{
+            padding: 1rem 0;
+            font-size: 1.8rem;
+            font-family: "adega-serif", Arial, Helvetica, sans-serif;
+            color: #797979;
+            text-align: justify;
+            margin: 1.5rem 0;
+        }
+    }
+
+
+    .box-galeria{
+        padding: 6.6rem 0 12.9rem;
+        background-color: #fff;
+        .box-titulo{
+            padding-bottom: 4.4rem;
+            text-align: center;
+
+
+            h2{
+                padding-bottom: 1.8rem;
+             font-size: 4.8rem;
+             font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+            }
+
+            p{
+                padding: 0 24rem;
+                color: #797979;
+                line-height: 1.3;
+                font-size: 1.8rem;
+                font-family: "adega-serif", Arial, Helvetica, sans-serif;
+            }
+        }
+
+        .nav-galery{
+            text-align: center;
+        }
+    }
+
+    button[type=button]{
+        font-size: 2rem;
+        font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+        color: #935033;
+        transition: .2s all;
+
+        &:hover{
+            background-color: #6fcce1;
+            color: #faf4ef;
+            cursor: pointer;
+        }
+    }
+}

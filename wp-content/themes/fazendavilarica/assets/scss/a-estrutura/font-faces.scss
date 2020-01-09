@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*=============================
+RESET / FONT-FACE
+=============================*/
+
+@font-face {
+    font-family: 'adega-serif';
+    display: auto;
+    src: url('../fonts/ADega-Serif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'adega-serif-italic';
+    display: auto;
+    src: url('../fonts/ADega-Serif-Bold-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'adega-serif-bold';
+    display: auto;
+    src: url('../fonts/ADega-Serif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    display: auto;
+    src: url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    display: auto;
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Safarnama-Signature';
+    display: auto;
+    src: url('../fonts/Safarnama-Signature.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    display: auto;
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

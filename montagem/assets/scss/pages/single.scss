@@ -1,0 +1,49 @@
+/* ############################### */
+/*            SINGLE              */
+/* ############################### */
+.fdez-blog.page-blog.single{
+
+    .box-titulo{
+        h2{
+            padding: 2.5rem 0;
+            font-size: 3.6rem;
+            font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+            color: #935033;
+        }
+    }
+
+    p{
+        font-size: 1.8rem;
+        font-family: "adega-serif", Arial, Helvetica, sans-serif;
+        color: #797979;
+        text-align: justify;
+        margin-bottom: 2.5rem;
+    }
+
+.box-content-blog{
+
+    .bg-color{
+        background-color: #ffffff;
+    }
+
+    figure{
+        position: relative;
+        width: calc(100% + 30px);
+        left: -15px;
+    }
+
+    .legenda{
+        padding: 0rem 0.6rem;
+        font-size: 1.8rem;
+        font-family: "adega-serif", Arial, Helvetica, sans-serif;
+        color: #797979;
+    }
+
+        .fas.fa-calendar-alt{
+            color: #6fcce1;
+         } 
+    }
+
+
+    @include _sidebar;
+}

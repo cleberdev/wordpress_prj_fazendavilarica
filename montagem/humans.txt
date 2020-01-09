@@ -1,0 +1,14 @@
+﻿/* TEAM */
+  Front-End e Wordpress: Valter Carnaúba
+  Contact: valter.csousa@gmail.com
+  Website: http://valtercarnauba.com.br
+  Linkedin: https://www.linkedin.com/in/valter-carna%C3%BAba-41507a55/
+
+
+/* ABOUT */
+  Last update: 2019
+  Language: Portuguese
+  Doctype Front-End: HTML5/CSS3, JavaScript/JQuery, Bootstrap
+  Doctype Back-End: WordPress, PHP, MySQL
+  IDE: Visual Studio Code, FileZilla
+ 

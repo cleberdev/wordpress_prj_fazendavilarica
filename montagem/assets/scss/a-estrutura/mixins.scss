@@ -1,0 +1,105 @@
+// IMAGES
+@mixin image-config-default{
+    max-width:  $img-max-width;
+    height: $img-height;
+    margin: $img-margin;
+    display: $img-display;
+    object-fit: $img-object-fit;
+    
+}
+
+
+@mixin line-after{
+    content: '';
+    width: 0;
+    height: 0.2rem;
+    margin-top: 0;
+    display: block;
+    background-color: #935033;
+    transition: all .3s;
+}
+
+@mixin btn-link-for-more{
+    letter-spacing: 10px;
+    font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: #6fcce1;
+    text-transform: uppercase;
+    
+}
+
+
+@mixin _sidebar{
+    .sidebar{
+
+        .sidebar-card{
+            padding: 3rem;
+            margin-bottom: 2rem;
+            background-color: #fff;  
+            
+            .box-titulo{
+                
+                h2{
+                  font-size: 2.8rem;
+                  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+                  color: #6fcce1;
+
+                  &::after{
+                    content: "";
+                    position: relative;
+                    display: inline-block;
+                    left: 0;
+                    margin: 1.3rem 0 0rem;
+                    width: 100%;
+                    border: 0.11rem solid #7979792e;
+                  }
+              }
+            }
+
+
+            ul{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 2rem;
+             
+
+                li{
+                    
+                    a{
+                        font-size: 1.8rem;
+                        font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                        color: #797979;
+                        line-height: 2.3;
+
+                        &:hover{
+                            color: #6fcce1;
+                        }
+                    }
+                }
+            }
+
+            .last-posts{
+                margin-top: 2rem;
+                span{
+                    
+                    font-size: 1.4rem;
+                    font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                    color: #797979;
+
+                    .fas.fa-calendar-alt{
+                       color: #6fcce1;
+                    }
+
+                }
+
+                p{
+                    font-size: 1.8rem;
+                    font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                    line-height: 1.2;
+                    color: #797979;
+                }
+            }
+        }
+    }
+}

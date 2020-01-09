@@ -1,0 +1,72 @@
+/*=============================
+MENU PRINCIPAL
+=============================*/
+header#topo {
+    position: $menu-postion;
+    width: $menu-width;
+    z-index: $menu-z-index;
+
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+
+        img {
+            padding-top: 4rem;
+        }
+    }
+
+    div#navbarSupportedContent {
+        justify-content: center;
+    }
+
+    .btn-social {
+        width: 10rem;
+    }
+
+ 
+
+}
+
+nav.navbar.navbar-expand-md.navbar-light {
+    width: $menu-width;
+    padding: 5.1rem 0;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    width: 9rem;
+    margin-left: 5.1rem;
+    font-size: $menu-font-size;
+    font-family: 'adega-serif-bold',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: $color-reset-default ;
+    text-align: center;
+    transition: all .3s;
+
+    &:hover{
+        color: $color-hover-default;
+    }
+
+    &:after{
+        @include line-after;
+    }
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover::after { 
+    width:  $menu-width;
+}
+.navbar-light .navbar-nav .nav-ativo {
+    color: $menu-color-active;
+}
+.navbar-brand {
+    margin-right: 4.5rem;
+}
+
+.btn-social i.fas.fa-circle.fa-stack-2x {
+    color: #001f3f;
+}
+.btn-social .fa-1x {
+    font-size: $menu-font-size;
+}

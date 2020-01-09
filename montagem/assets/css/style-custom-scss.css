@@ -1,0 +1,1410 @@
+/*=============================
+RESET / FONT-FACE
+=============================*/
+@font-face {
+  font-family: "adega-serif";
+  display: auto;
+  src: url("../fonts/ADega-Serif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adega-serif-italic";
+  display: auto;
+  src: url("../fonts/ADega-Serif-Bold-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adega-serif-bold";
+  display: auto;
+  src: url("../fonts/ADega-Serif-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  display: auto;
+  src: url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  display: auto;
+  src: url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Safarnama-Signature";
+  display: auto;
+  src: url("../fonts/Safarnama-Signature.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  display: auto;
+  src: url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*=============================
+RESET 
+=============================*/
+html {
+  font-size: 62.5%;
+  color: #935033;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: #935033;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  background-color: #faf4ef;
+}
+
+button, label, input, select, textarea {
+  color: #935033;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+}
+
+*, h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style-type: none;
+  list-style-position: inside;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+}
+
+a, a:hover, a:focus, a:visited {
+  color: #935033;
+  text-decoration: none;
+  outline: none;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+}
+
+ul, p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
+
+/*=============================
+GERAL
+=============================*/
+.form-control {
+  height: calc(3.6rem + 2px);
+}
+
+.form-control, .btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+}
+
+#conteudo .bg-topo {
+  padding: 1.8rem 0;
+  background: url(../img/midia/banner-02.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#conteudo .bg-topo h1 {
+  font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+  font-size: 22rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.box-content h2 {
+  font-size: 4.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+.box-content p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+}
+.box-content .btn-saiba-mais {
+  padding: 0 0 5.9rem;
+  letter-spacing: 10px;
+  font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color: #6fcce1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*========================================
+ERROS FORMULARIOS -FORMS CONTACT 7
+==========================================*/
+body input[type=text].wpcf7-not-valid,
+body input[type=email].wpcf7-not-valid,
+body input[type=tel].wpcf7-not-valid,
+body input[type=password].wpcf7-not-valid,
+body input[type=file].wpcf7-not-valid,
+body textarea.wpcf7-not-valid,
+body select.wpcf7-not-valid {
+  border: 1px solid #dc3545;
+}
+
+span.wpcf7-not-valid-tip {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  padding: 0;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  clear: both;
+  display: block;
+  border: none;
+  color: #dc3545;
+  background: none;
+}
+
+.wpcf7-captchac {
+  padding: 2rem 4rem;
+  border: 1px solid #dee1e1;
+  margin-bottom: 1rem;
+}
+
+.wpcf7-response-output {
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 80%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 5px;
+  clear: both;
+}
+
+.wpcf7-validation-errors {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background: #ffe2e2;
+}
+
+.wpcf7-mail-sent-ng {
+  color: #e17731;
+  border: 1px solid #ffbc8a;
+  background: #fff2e2;
+}
+
+.wpcf7-mail-sent-ok {
+  color: #1ea524;
+  border: 1px solid #6fdf51;
+  background: #e8ffe2;
+}
+
+.screen-reader-response {
+  display: none;
+}
+
+/*=============================
+ERROS 404
+=============================*/
+.error {
+  padding: 10% 0;
+}
+
+.error .clip .shadow {
+  height: 18rem;
+}
+
+.error .clip:nth-of-type(2) .shadow {
+  width: 13rem;
+}
+
+.error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {
+  width: 25rem;
+}
+
+.error .digit {
+  width: 15rem;
+  height: 15rem;
+  line-height: 15rem;
+  font-size: 12rem;
+  font-weight: bold;
+}
+
+.error h2 {
+  font-size: 32px;
+}
+
+.error .msg {
+  top: -19rem;
+  left: 30%;
+  width: 8rem;
+  height: 8rem;
+  line-height: 8rem;
+  font-size: 32px;
+}
+
+.error span.triangle {
+  top: 70%;
+  right: 0%;
+  border-left: 2rem solid #535353;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.error .container-error-404 {
+  position: relative;
+  height: 25rem;
+}
+
+.error .container-error-404 .clip {
+  display: inline-block;
+  transform: skew(-45deg);
+}
+
+.error .clip .shadow {
+  overflow: hidden;
+}
+
+.error .clip:nth-of-type(2) .shadow {
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 2rem 0 2rem -15px rgba(150, 150, 150, 0.8), 2rem 0 2rem -15px rgba(150, 150, 150, 0.8);
+}
+
+.error .clip:nth-of-type(3) .shadow:after, .error .clip:nth-of-type(1) .shadow:after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  bottom: 0;
+  z-index: 9999;
+  height: 100%;
+  width: 1rem;
+  background: linear-gradient(90deg, transparent, rgba(173, 173, 173, 0.8), transparent);
+  border-radius: 50%;
+}
+
+.error .clip:nth-of-type(3) .shadow:after {
+  left: -8px;
+}
+
+.error .digit {
+  position: relative;
+  top: 8%;
+  color: white;
+  background: #004c7b;
+  border-radius: 50%;
+  display: inline-block;
+  transform: skew(45deg);
+}
+
+.error .clip:nth-of-type(2) .digit {
+  left: -10%;
+}
+
+.error .clip:nth-of-type(1) .digit {
+  right: -20%;
+}
+
+.error .clip:nth-of-type(3) .digit {
+  left: -20%;
+}
+
+.error h2 {
+  color: #A2A2A2;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.error p {
+  color: #A2A2A2;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.error .msg {
+  position: relative;
+  z-index: 10;
+  display: block;
+  background: #535353;
+  color: #A2A2A2;
+  border-radius: 50%;
+  font-style: italic;
+}
+
+.error .triangle {
+  position: absolute;
+  z-index: 999;
+  transform: rotate(45deg);
+  content: "";
+  width: 0;
+  height: 0;
+}
+
+/*=============================
+MENU PRINCIPAL
+=============================*/
+header#topo {
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+}
+header#topo .navbar-brand {
+  display: flex;
+  justify-content: center;
+}
+header#topo .navbar-brand img {
+  padding-top: 4rem;
+}
+header#topo div#navbarSupportedContent {
+  justify-content: center;
+}
+header#topo .btn-social {
+  width: 10rem;
+}
+
+nav.navbar.navbar-expand-md.navbar-light {
+  width: 100%;
+  padding: 5.1rem 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  width: 9rem;
+  margin-left: 5.1rem;
+  font-size: 1.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #935033;
+  text-align: center;
+  transition: all 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #584b45;
+}
+.navbar-light .navbar-nav .nav-link:after {
+  content: "";
+  width: 0;
+  height: 0.2rem;
+  margin-top: 0;
+  display: block;
+  background-color: #935033;
+  transition: all 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-ativo {
+  color: #935033;
+}
+
+.navbar-brand {
+  margin-right: 4.5rem;
+}
+
+.btn-social i.fas.fa-circle.fa-stack-2x {
+  color: #001f3f;
+}
+
+.btn-social .fa-1x {
+  font-size: 1.8rem;
+}
+
+/*=============================
+BANNER
+=============================*/
+.fdez-banner.page-home .box-text-top {
+  position: absolute;
+  padding: 0 10rem 0rem 7rem;
+  left: 11.3rem;
+  top: 50%;
+  margin-top: -15.7rem;
+  width: 71.4rem;
+  height: 31.3rem;
+  background-color: #fff;
+  z-index: 1999;
+}
+.fdez-banner.page-home h2 {
+  font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+  font-size: 22rem;
+  position: relative;
+  top: -142px;
+}
+.fdez-banner.page-home p {
+  color: #797979;
+  font-size: 1.8rem;
+  position: relative;
+  top: -13rem;
+}
+.fdez-banner.page-home .btn-saiba-mais {
+  position: relative;
+  top: -12.3rem;
+  float: right;
+  letter-spacing: 10px;
+  font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color: #6fcce1;
+  text-transform: uppercase;
+}
+
+/*=========================================
+   PAGES
+===========================================*/
+/* ############################################ */
+/*               A FAZENDA                      */
+/* ############################################ */
+.fdez-afazenda.page-afazenda {
+  background-color: #faf4ef;
+}
+.fdez-afazenda.page-afazenda .bg-topo {
+  position: relative;
+  top: -2.5rem;
+}
+.fdez-afazenda.page-afazenda .box-content {
+  padding-bottom: 5rem;
+}
+.fdez-afazenda.page-afazenda .box-content h2 {
+  padding: 2.2rem 0;
+  font-size: 7.3rem;
+  font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+  color: #935033;
+}
+.fdez-afazenda.page-afazenda .box-content p {
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+  text-align: justify;
+  margin: 1.5rem 0;
+}
+.fdez-afazenda.page-afazenda .box-galeria {
+  padding: 6.6rem 0 12.9rem;
+  background-color: #fff;
+}
+.fdez-afazenda.page-afazenda .box-galeria .box-titulo {
+  padding-bottom: 4.4rem;
+  text-align: center;
+}
+.fdez-afazenda.page-afazenda .box-galeria .box-titulo h2 {
+  padding-bottom: 1.8rem;
+  font-size: 4.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+.fdez-afazenda.page-afazenda .box-galeria .box-titulo p {
+  padding: 0 24rem;
+  color: #797979;
+  line-height: 1.3;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+}
+.fdez-afazenda.page-afazenda .box-galeria .nav-galery {
+  text-align: center;
+}
+.fdez-afazenda.page-afazenda button[type=button] {
+  font-size: 2rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #935033;
+  transition: 0.2s all;
+}
+.fdez-afazenda.page-afazenda button[type=button]:hover {
+  background-color: #6fcce1;
+  color: #faf4ef;
+  cursor: pointer;
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+/* ############################# */
+/* NOSSOS EVENTOS */
+/* ############################# */
+.fdez-nossos-eventos.page-home {
+  padding-bottom: 2.3rem;
+  margin: 2.3rem 0;
+  background-color: #6fcce1;
+  background-image: linear-gradient(180deg, #6fcce1 56rem, #faf4ef 30rem);
+}
+.fdez-nossos-eventos.page-home .box-content p {
+  padding: 4.2rem 18rem 5.2rem;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.fdez-nossos-eventos.page-home .box-content h2 {
+  padding: 6.2rem 0 0;
+  font-size: 4.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+
+.fdez-eventos.page-eventos .box-content {
+  padding: 6.6rem;
+}
+.fdez-eventos.page-eventos .box-content .box-img {
+  height: 43.8rem;
+}
+.fdez-eventos.page-eventos .box-content .box-context, .fdez-eventos.page-eventos .box-content .box-context-diff {
+  position: absolute;
+  padding: 2rem 6.6rem 6.9rem;
+  background-color: #ffffff;
+  right: 0;
+  top: 50%;
+  margin-top: -18rem;
+  width: 69.9rem;
+  z-index: 999;
+}
+.fdez-eventos.page-eventos .box-content .box-context h2, .fdez-eventos.page-eventos .box-content .box-context-diff h2 {
+  font-size: 7.3rem;
+  font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+  color: #935033;
+}
+.fdez-eventos.page-eventos .box-content .box-context p, .fdez-eventos.page-eventos .box-content .box-context-diff p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-eventos.page-eventos .box-content .box-context .btn-saiba-mais, .fdez-eventos.page-eventos .box-content .box-context-diff .btn-saiba-mais {
+  letter-spacing: 10px;
+  font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color: #6fcce1;
+  text-transform: uppercase;
+  position: relative;
+  top: 2rem;
+}
+.fdez-eventos.page-eventos .box-content .box-context-diff {
+  right: -13rem;
+}
+
+/* ############################# */
+/* BLOG */
+/* ############################# */
+.fdez-blog.page-home {
+  padding: 4rem 0 7.9rem;
+  background-color: #ffffff;
+}
+.fdez-blog.page-home .box-content {
+  color: #935033;
+}
+.fdez-blog.page-home .box-content p {
+  padding: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.3;
+}
+.fdez-blog.page-home .box-bady {
+  height: auto;
+  position: relative;
+  -webkit-box-shadow: 8px 5px 26px -14px #595959;
+  -moz-box-shadow: 8px 5px 26px -14px #595959;
+  box-shadow: 8px 5px 26px -14px #595959;
+}
+.fdez-blog.page-home .box-bady img {
+  height: 25rem;
+}
+.fdez-blog.page-home .box-bady .box-txt {
+  padding: 3rem;
+}
+.fdez-blog.page-home .box-bady .box-txt h4 {
+  padding: 1.6rem 0 1rem 0rem;
+  color: #505050;
+  font-size: 2.4rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+.fdez-blog.page-home .box-bady .box-txt p {
+  color: #797979;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.fdez-blog.page-blog .box-content-blog {
+  margin: 6.6rem 0 0;
+}
+.fdez-blog.page-blog .box-content-blog .item-post {
+  margin: 0 0 6.6rem;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog {
+  background-color: #ffffff;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .legenda {
+  padding: 2rem 6.6rem;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .legenda .fas.fa-calendar-alt {
+  color: #6fcce1;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .box-content-txt {
+  padding: 0 6.6rem 5.6rem;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .box-content-txt h2 {
+  font-size: 3.6rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #935033;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .box-content-txt p {
+  padding: 2rem 0;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .box-content-txt .btn.btn-link-for-more {
+  letter-spacing: 10px;
+  font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color: #6fcce1;
+  text-transform: uppercase;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card .box-titulo h2 {
+  font-size: 2.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #6fcce1;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card .box-titulo h2::after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  left: 0;
+  margin: 1.3rem 0 0rem;
+  width: 100%;
+  border: 0.11rem solid #7979792e;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card ul li a {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+  line-height: 2.3;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card ul li a:hover {
+  color: #6fcce1;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card .last-posts {
+  margin-top: 2rem;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card .last-posts span {
+  font-size: 1.4rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card .last-posts span .fas.fa-calendar-alt {
+  color: #6fcce1;
+}
+.fdez-blog.page-blog .box-content-blog .sidebar .sidebar-card .last-posts p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  color: #797979;
+}
+
+/* ############################### */
+/*            SINGLE              */
+/* ############################### */
+.fdez-blog.page-blog.single .box-titulo h2 {
+  padding: 2.5rem 0;
+  font-size: 3.6rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #935033;
+}
+.fdez-blog.page-blog.single p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+  text-align: justify;
+  margin-bottom: 2.5rem;
+}
+.fdez-blog.page-blog.single .box-content-blog .bg-color {
+  background-color: #ffffff;
+}
+.fdez-blog.page-blog.single .box-content-blog figure {
+  position: relative;
+  width: calc(100% + 30px);
+  left: -15px;
+}
+.fdez-blog.page-blog.single .box-content-blog .legenda {
+  padding: 0rem 0.6rem;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-blog.page-blog.single .box-content-blog .fas.fa-calendar-alt {
+  color: #6fcce1;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card .box-titulo h2 {
+  font-size: 2.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #6fcce1;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card .box-titulo h2::after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  left: 0;
+  margin: 1.3rem 0 0rem;
+  width: 100%;
+  border: 0.11rem solid #7979792e;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card ul li a {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+  line-height: 2.3;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card ul li a:hover {
+  color: #6fcce1;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card .last-posts {
+  margin-top: 2rem;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card .last-posts span {
+  font-size: 1.4rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card .last-posts span .fas.fa-calendar-alt {
+  color: #6fcce1;
+}
+.fdez-blog.page-blog.single .sidebar .sidebar-card .last-posts p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  color: #797979;
+}
+
+/* ############################# */
+/*          CONTATO              */
+/* ############################# */
+.fdez-contato.page-contato .box-contatos {
+  padding: 5.3rem 0;
+}
+.fdez-contato.page-contato .box-contatos .item {
+  padding: 0 0 3.3rem 3.8rem;
+  background-color: #ffffff;
+}
+.fdez-contato.page-contato .box-contatos .box-titulo h2 {
+  font-size: 8.2rem;
+  font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+  color: #935033;
+}
+.fdez-contato.page-contato .box-contatos .box-body p.nome {
+  font-size: 2.4rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #6fcce1;
+}
+.fdez-contato.page-contato .box-contatos .box-body p.email, .fdez-contato.page-contato .box-contatos .box-body p.telefone {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-contato.page-contato .box-contatos .box-body p.email .far.fa-envelope, .fdez-contato.page-contato .box-contatos .box-body p.email .fas.fa-phone-alt, .fdez-contato.page-contato .box-contatos .box-body p.telefone .far.fa-envelope, .fdez-contato.page-contato .box-contatos .box-body p.telefone .fas.fa-phone-alt {
+  margin: 0 1rem;
+  color: #6fcce1;
+}
+.fdez-contato.page-contato .box-contatos .box-body address .fas.fa-map-marker-alt {
+  margin: 0 1rem;
+  font-size: 3.6rem;
+  color: #6fcce1;
+}
+.fdez-contato.page-contato .box-contatos .box-body address p {
+  padding: 0 7rem 0 0;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-contato.page-contato .como-chegar .box-titulo h2 {
+  padding: 4.5rem 0;
+  font-size: 4.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+.fdez-contato.page-contato .como-chegar .box-content-item {
+  padding-bottom: 3.9rem;
+}
+.fdez-contato.page-contato .como-chegar .box-content-item h3 {
+  font-size: 2.1rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #535353;
+}
+.fdez-contato.page-contato .como-chegar .box-content-item p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-contato.page-contato .como-chegar .box-content-aviso p {
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-contato.page-contato .como-chegar .box-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.6rem 0 2.6rem;
+  background-color: #6fcce1;
+}
+.fdez-contato.page-contato .como-chegar .box-download .box-titulo {
+  font-size: 6rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.fdez-contato.page-contato .como-chegar .box-download .btn-down {
+  padding: 1.5rem;
+  width: 29rem;
+  margin: 0 0 2.6rem;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: transparent;
+  transition: 0.3s all;
+}
+.fdez-contato.page-contato .como-chegar .box-download .btn-down:hover {
+  border: 1px solid #535353;
+  color: #535353;
+}
+
+/* ############################### */
+/*            FOOTER               */
+/* ############################### */
+.fdez-agende.page-footer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 100%;
+}
+.fdez-agende.page-footer .box-content-txt {
+  padding: 7rem 7rem;
+  background-color: #6fcce1;
+  height: 100%;
+}
+.fdez-agende.page-footer .box-content-txt h2 {
+  font-size: 4.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+.fdez-agende.page-footer .box-content-txt p {
+  padding-top: 2.2rem;
+  padding-right: 14rem;
+  font-size: 2.5rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.fdez-newsletter.page-footer .box-content-txt {
+  padding: 5rem 8rem 8.3rem;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+.fdez-newsletter.page-footer .box-content-txt h2 {
+  font-size: 4.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #935033;
+}
+.fdez-newsletter.page-footer .box-content-txt p {
+  padding: 4rem 0;
+  font-size: 1.8rem;
+  font-family: "adega-serif", Arial, Helvetica, sans-serif;
+  color: #797979;
+}
+.fdez-newsletter.page-footer .box-content-txt form {
+  width: 48.7rem;
+  margin: 0 auto;
+}
+.fdez-newsletter.page-footer .box-content-txt form .form-newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #7979797a;
+  border-radius: 0.4rem;
+}
+.fdez-newsletter.page-footer .box-content-txt form .form-newsletter a.btn.btn-enviar {
+  padding: 0;
+  margin: 0;
+}
+.fdez-newsletter.page-footer .box-content-txt form .form-newsletter a.btn.btn-enviar img {
+  height: 4rem;
+  z-index: 9999;
+  position: absolute;
+  top: -0.1rem;
+  right: -0.1rem;
+}
+.fdez-newsletter.page-footer .box-content-txt form .form-control, .fdez-newsletter.page-footer .box-content-txt form .btn {
+  border: none;
+}
+
+.fdez-contato.page-footer {
+  padding: 7rem 0;
+}
+.fdez-contato.page-footer .footer-contato h2 {
+  font-size: 3rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+.fdez-contato.page-footer .footer-contato p {
+  padding: 1.8rem 0;
+  font-size: 1.8rem;
+  color: #797979;
+}
+.fdez-contato.page-footer .footer-contato .btns-downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.fdez-contato.page-footer .footer-contato .btns-downloads .btn.btn-padrao {
+  padding: 1rem;
+  margin: 0.8rem 0;
+  width: 29.2rem;
+  border: 1px solid #935033;
+  font-size: 2rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+  color: #935033;
+  transition: 0.2s all;
+}
+.fdez-contato.page-footer .footer-contato .btns-downloads .btn.btn-padrao:hover {
+  color: #fff;
+  border: 1px solid #935033;
+  background-color: #935033;
+}
+
+.bar-footer-end.page-footer {
+  padding-top: 1.6rem;
+  background-color: #6fcce1;
+  color: #ffffff;
+}
+.bar-footer-end.page-footer .btn-social i.fab {
+  color: #fff;
+  font-size: 2.7rem;
+}
+.bar-footer-end.page-footer p {
+  font-size: 1.8rem;
+  font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+}
+
+/* ############ MIDIAs QUERY ############ */
+@media (max-width: 767px) {
+  header#topo nav.navbar.navbar-expand-md.navbar-light {
+    display: flex;
+    justify-content: center;
+    padding: 3.1rem 0;
+  }
+  header#topo .navbar-brand {
+    display: flex;
+    padding: 0;
+    margin: 3rem auto 0;
+  }
+  header#topo .navbar-brand img {
+    padding-top: initial;
+    height: 17rem;
+    margin: 0 auto;
+  }
+  header#topo div#navbarSupportedContent {
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+    transition: 0.4s all;
+  }
+  header#topo .navbar-light .navbar-nav .nav-link {
+    width: initial;
+    margin-left: initial;
+  }
+  header#topo .btn-social {
+    width: initial;
+  }
+  header#topo .fa-stack-1x, header#topo .fa-stack-2x {
+    font-size: 2.4rem;
+    position: initial;
+  }
+
+  /* BANNER */
+  .fdez-banner.page-home .box-text-top {
+    position: absolute;
+    padding: 0 2rem 0rem 3rem;
+    width: 100%;
+    left: initial;
+    margin-top: initial;
+    text-align: center;
+    background-color: #ffffffd1;
+    z-index: 1999;
+  }
+  .fdez-banner.page-home h2 {
+    font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+    font-size: 8rem;
+    top: initial;
+  }
+  .fdez-banner.page-home figure img {
+    height: 31rem;
+  }
+  .fdez-banner.page-home p {
+    font-size: 1.7rem;
+    top: initial;
+  }
+  .fdez-banner.page-home .btn-saiba-mais {
+    top: initial;
+    float: initial;
+    letter-spacing: 4.9px;
+    top: 1rem;
+  }
+
+  /* EVENTOS - HOME */
+  .fdez-nossos-eventos.page-home {
+    margin: initial;
+  }
+  .fdez-nossos-eventos.page-home .box-content h2 {
+    padding: 2.2rem 0 0;
+    font-size: 3.8rem;
+  }
+  .fdez-nossos-eventos.page-home .box-content p {
+    padding: 1.2rem 1rem 5.2rem;
+  }
+
+  /* BLOG */
+  .fdez-blog.page-home .box-content {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .fdez-blog.page-home .box-content h2 {
+    font-size: 3.8rem;
+  }
+  .fdez-blog.page-home .box-content p {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .fdez-blog.page-home .box-bady {
+    margin: 3rem 0;
+  }
+  .fdez-blog.page-home .box-bady img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* AGENDA */
+  .fdez-agende.page-footer .box-content-txt {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  .fdez-agende.page-footer .box-content-txt h2 {
+    font-size: 3.8rem;
+    text-align: center;
+  }
+  .fdez-agende.page-footer .box-content-txt p {
+    padding-right: initial;
+    font-size: 2.3rem;
+    line-height: 1.3;
+  }
+
+  /*  NEWSLETTER    */
+  .fdez-newsletter.page-footer .box-content-txt {
+    padding: 4rem 1rem 4.3rem 1rem;
+  }
+  .fdez-newsletter.page-footer .box-content-txt h2 {
+    font-size: 3.8rem;
+  }
+  .fdez-newsletter.page-footer .box-content-txt p {
+    padding: 1rem 0;
+  }
+  .fdez-newsletter.page-footer .box-content-txt form {
+    width: initial;
+  }
+
+  /* FOOTER */
+  .fdez-contato.page-footer {
+    padding: 1rem 0;
+  }
+  .fdez-contato.page-footer .navbar-brand {
+    margin-right: initial;
+    margin: 0 auto 4rem 0rem;
+    display: flex;
+    align-items: center;
+  }
+  .fdez-contato.page-footer .footer-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .bar-footer-end.page-footer {
+    padding: 1.6rem;
+    text-align: center;
+  }
+  .bar-footer-end.page-footer .btn-social {
+    padding: 1rem;
+  }
+
+  /* ##########################################  */
+  /* INTERNAS GERAL */
+  #conteudo .bg-topo h1 {
+    font-size: 11rem;
+  }
+
+  /* Interna - a fazenda */
+  .fdez-afazenda.page-afazenda .box-content h2 {
+    padding: 2.2rem 1rem;
+    font-size: 5.3rem;
+    text-align: center;
+    line-height: 0.6;
+  }
+  .fdez-afazenda.page-afazenda .box-content p {
+    padding: 1rem 2.5rem;
+  }
+  .fdez-afazenda.page-afazenda .box-galeria .box-titulo p {
+    padding: initial;
+  }
+
+  /* Page Eventos */
+  .fdez-eventos.page-eventos .box-content {
+    padding: initial;
+    widows: 100%;
+    max-width: 100%;
+  }
+  .fdez-eventos.page-eventos .box-content .box-item {
+    margin: 5rem 0;
+  }
+  .fdez-eventos.page-eventos .box-content .box-img {
+    height: auto;
+    object-fit: cover;
+  }
+  .fdez-eventos.page-eventos .box-content .box-context,
+.fdez-eventos.page-eventos .box-content .box-context-diff {
+    position: initial;
+    padding: initial;
+    top: initial;
+    margin-top: initial;
+    width: initial;
+    padding: 0 3rem;
+    text-align: center;
+  }
+  .fdez-eventos.page-eventos .box-content .box-context .btn-saiba-mais,
+.fdez-eventos.page-eventos .box-content .box-context-diff .btn-saiba-mais {
+    letter-spacing: 5px;
+    top: initial;
+    display: block;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .fdez-eventos.page-eventos .img-aling-top {
+    flex-direction: column-reverse !important;
+  }
+
+  /* page blog */
+  .fdez-blog.page-blog .box-content-blog .item-post .box-card-blog .box-content-txt {
+    padding: 0 1.6rem 2.6rem;
+  }
+  .fdez-blog.page-blog .sidebar .sidebar-card {
+    padding: 1.6rem;
+  }
+  .fdez-blog.page-blog .sidebar .sidebar-card .last-posts img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 11rem;
+    vertical-align: text-top;
+  }
+
+  /* page contato */
+  .fdez-contato.page-contato .box-contatos {
+    padding: 3.3rem 0;
+  }
+  .fdez-contato.page-contato .como-chegar .box-titulo h2 {
+    padding: 1.2rem 0 5rem;
+    text-align: center;
+    font-size: 3.8rem;
+  }
+  .fdez-contato.page-contato .como-chegar .box-content-item {
+    padding-bottom: 2.3rem;
+    text-align: center;
+  }
+  .fdez-contato.page-contato .como-chegar .box-content-aviso {
+    text-align: center;
+    line-height: 1.2;
+    margin: 2rem 0;
+  }
+
+  .error .clip .shadow {
+    height: 10rem;
+  }
+
+  .error .clip:nth-of-type(2) .shadow {
+    width: 8rem;
+  }
+
+  .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {
+    width: 10rem;
+  }
+
+  .error .digit {
+    width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
+    font-size: 5.2rem;
+  }
+
+  .error h2 {
+    font-size: 2.4rem;
+  }
+
+  .error .msg {
+    top: -11rem;
+    left: 15%;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+  }
+
+  .error span.triangle {
+    top: 70%;
+    right: -3%;
+    border-left: 1rem solid #535353;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+  }
+
+  .error .container-error-404 {
+    height: 15rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  header#topo .btn-social {
+    width: 10rem;
+    top: -8.3rem;
+    position: relative;
+  }
+  header#topo .navbar-light .navbar-nav .nav-link {
+    width: 9rem;
+    margin-left: 1.1rem;
+  }
+
+  .fdez-banner.page-home {
+    height: 62rem;
+  }
+  .fdez-banner.page-home .row {
+    flex-direction: column-reverse;
+  }
+  .fdez-banner.page-home .box-text-top {
+    position: relative;
+    padding: 0 10rem 0rem 13rem;
+    left: initial;
+    top: 6%;
+    margin-top: initial;
+    width: 100%;
+  }
+
+  .fdez-nossos-eventos.page-home .box-content p {
+    padding: 2.2rem 0rem 5.2rem;
+    font-size: 2.3rem;
+  }
+
+  .fdez-blog.page-home .box-content p {
+    padding: 2rem;
+    font-size: 2.3rem;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .fdez-agende.page-footer .box-content-txt p {
+    padding-top: 1.2rem;
+    padding-right: 0rem;
+    text-align: center;
+  }
+
+  .fdez-contato.page-footer .footer-contato .btns-downloads .btn.btn-padrao {
+    padding: 1rem;
+    margin: 0.8rem 0;
+    width: 21.2rem;
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active {
+    padding: 0 0.7rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style-custom-scss.css.map */

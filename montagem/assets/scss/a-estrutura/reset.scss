@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*=============================
+RESET 
+=============================*/
+html {font-size: $font-reset-default;
+     color: $color-reset-default ;
+    font-family: $font-default;
+}
+body {color: $color-reset-default ;
+    font-size: $font-size-reset-default;
+    font-family: $font-default;
+    background-color: $body-bg-color;
+}
+button, label, input, select, textarea {
+    color: $color-reset-default ;
+    font-size: $menu-font-size;
+    font-family: $font-default;
+}
+*, h1, h2, h3, h4, h5 {padding: 0;margin: 0;
+    outline: none;
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: $font-default;
+}
+a, a:hover, a:focus, a:visited {
+    color: $color-reset-default ;
+    text-decoration: none;
+    outline: none;
+    font-size: $menu-font-size;
+    font-family: $font-default;
+}
+ul, p {margin: 0;font-size: $menu-font-size;}
+img { @include image-config-default }

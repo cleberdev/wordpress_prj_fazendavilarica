@@ -1,0 +1,38 @@
+/*=============================
+BANNER
+=============================*/
+
+.fdez-banner.page-home {
+  .box-text-top {
+    position: absolute;
+    padding: 0 10rem 0rem 7rem;
+    left: 11.3rem;
+    top: 50%;
+    margin-top: -15.7rem;
+    width: 71.4rem;
+    height: 31.3rem;
+    background-color: #fff;
+    z-index: 1999; 
+ }
+
+  h2{
+    font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+    font-size: 22rem;
+    position: relative;
+    top: -142px;
+  }
+
+  p{
+    color: #797979;
+    font-size: 1.8rem;
+    position: relative;
+    top: -13rem;
+  }
+
+  .btn-saiba-mais{
+    position: relative;
+    top: -12.3rem;
+    float: right;
+    @include btn-link-for-more;
+  }
+}

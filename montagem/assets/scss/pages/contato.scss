@@ -1,0 +1,131 @@
+/* ############################# */
+/*          CONTATO              */
+/* ############################# */
+.fdez-contato.page-contato{
+    
+    .box-contatos{
+        padding: 5.3rem 0;
+
+        .item{
+            padding: 0 0 3.3rem 3.8rem;
+            background-color: #ffffff;
+        }
+
+        .box-titulo{
+            h2{
+                font-size: 8.2rem;
+                font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+                color: #935033;
+            }
+        }    
+        
+        .box-body{
+
+            p.nome{
+                font-size: 2.4rem;
+                font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+                color: #6fcce1;
+            }
+
+            p.email, p.telefone{
+
+                font-size: 1.8rem;
+                font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                color: #797979;
+
+                .far.fa-envelope, .fas.fa-phone-alt{
+                    margin: 0 1rem;
+                    color: #6fcce1;
+                }
+            }
+
+
+            address{
+
+                .fas.fa-map-marker-alt{
+                    margin: 0 1rem;
+                    font-size: 3.6rem;
+                    color: #6fcce1;
+                }
+
+                p{
+                    padding: 0 7rem 0 0;
+                    font-size: 1.8rem;
+                    font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                    color: #797979;
+                }
+
+
+            }
+        }
+    }
+
+    .como-chegar{
+
+        .box-titulo{
+            h2{
+                padding: 4.5rem 0;
+                font-size: 4.8rem;
+                font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+            }
+        }
+
+        .box-content-item{
+            padding-bottom: 3.9rem;
+
+            h3{
+                font-size: 2.1rem;
+                font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+                color: #535353;
+            }
+
+            p {
+                font-size: 1.8rem;
+                font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                color: #797979;
+            }
+
+        }
+
+        .box-content-aviso p{
+            font-size: 1.8rem;
+            font-family: "adega-serif", Arial, Helvetica, sans-serif;
+            color: #797979;
+        }
+
+
+        .box-download{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2.6rem 0 2.6rem;
+            background-color: #6fcce1;
+
+            .box-titulo{
+                font-size: 6rem;
+                font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+                color: #fff;
+                text-align: center;
+            }
+
+            .btn-down{
+                padding: 1.5rem;
+                width: 29rem;
+                margin: 0 0 2.6rem;
+                font-size: 1.8rem;
+                font-family: "adega-serif", Arial, Helvetica, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                border: 1px solid #fff;
+                background-color: transparent;
+                transition: .3s all;
+
+                &:hover{
+                    border: 1px solid #535353;
+                    color: #535353;
+                }
+            }
+        }
+    }
+}

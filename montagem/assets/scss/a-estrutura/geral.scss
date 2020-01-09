@@ -1,0 +1,56 @@
+/*=============================
+GERAL
+=============================*/
+.form-control {
+    height: calc(3.6rem + 2px);
+}
+.form-control, .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: $font-size-elements-form-default;
+    border-radius: 0.4rem;
+}
+
+#conteudo{
+
+    .bg-topo{
+        padding: 1.8rem 0;
+        background: url(../img/midia/banner-02.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        h1{
+            font-family: "Safarnama-Signature", Arial, Helvetica, sans-serif;
+            font-size: 22rem;
+            color: #ffffff;
+            text-align: center;
+        }
+    } 
+} 
+
+
+.box-content{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+    h2{
+        font-size: 4.8rem;
+        font-family: "adega-serif-bold", Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        //padding: 4.2rem 18rem 5.2rem;
+        font-size: 1.8rem;
+        font-family: "adega-serif", Arial, Helvetica, sans-serif;
+        //text-align: center;
+    }
+
+    .btn-saiba-mais{
+        padding: 0 0 5.9rem;
+        @include btn-link-for-more;
+        color: #fff;
+    }
+
+} 
